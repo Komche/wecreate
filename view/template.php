@@ -5,8 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bizcon</title>
+    <title>Wecreate</title>
     <link rel="icon" href="public/vendor/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" integrity="sha256-t2kyTgkh+fZJYRET5l9Sjrrl4UDain5jxdbqe8ejO8A=" crossorigin="anonymous" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="public/vendor/css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="public/vendor/css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="public/vendor/css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 col-xl-8">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html"> <img src="public/img/logo.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -43,18 +45,16 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="index.html">Accueil</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Blog
+                                    Services
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="blog.html">Blog</a>
-                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                                        <a class="dropdown-item" href="blog.html">L’espace de  co-working</a>
+                                        <a class="dropdown-item" href="single-blog.html">Le Fablab </a>
+                                        <a class="dropdown-item" href="single-blog.html">Centre de formation en spécialité informatique</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -67,6 +67,9 @@
                                         <a class="dropdown-item" href="service.html">Services</a>
                                         <a class="dropdown-item" href="elements.html">Elements</a>
                                     </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Carrière</a>
                                 </li>
                                 <li class="nav-item active">
                                     <a class="nav-link" href="contact.html">Contact</a>
@@ -87,11 +90,10 @@
                 <div class="col-lg-7 col-xl-6">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h1>Lead from <br> Front in Business <br> Innovation.</h1>
-                            <p>Male bring land dominion over can yielding his moveth under of depend brought him is.
-                                Multiply which firmament deep make.</p>
-                            <a href="#" class="btn_1">learn more </a>
-                            <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="popup-youtube video_popup">
+                            <h1>La transformation digitale <br> pour le bien de la <br> communauté.</h1>
+                            <p>Wecreate est un espace dédié pour former et accompagner les jeunes afin de les amener à saisir les opportunités qu’offre les technologies du numérique.</p>
+                            <a href="#about" class="btn_1">A propos de Wecreate</a>
+                            <a href="Lien : https://youtu.be/eJCbtU_kTGc" class="popup-youtube video_popup">
                                 <span><img src="img/icon/play.svg" alt=""></span> Intro Video</a>
                         </div>
                     </div>
@@ -107,24 +109,20 @@
     <!-- banner part start-->
 
     <!-- about part start-->
-    <section class="about_part">
+    <section id="about" class="about_part">
         <div class="container">
             <div class="row align-items-center justify-content-end">
                 <div class="col-md-6 col-lg-6 col-xl-5">
                     <div class="about_img">
-                        <img src="img/about_img_1.png" alt="">
+                        <img src="public/img/cp_5.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 offset-xl-1 col-xl-6">
                     <div class="about_text">
-                        <h2>We Have 24 Year
-                            Expereince in consulting</h2>
-                        <h4>First Abundantly night you are sea great fifth year</h4>
-                        <p>Lights fly above bearing brought abundantly whose. Without one may i seed void wels great
-                            face god were deep be first. Unto for third be in moveth. Bring land bearing un abundantly
-                            firmament appear whales them years. Lights fly above bearing brought bold abundantly whose
-                            without one may i seed. </p>
-                        <a href="#" class="btn_2">read more</a>
+                        <h2>A propos de nous</h2>
+                        <p>Crée en 2019, Wecreate est le 1ère le tech hub (centre technologique) au Niger, qui met à la disposition des jeunes tout le savoir-faire nécessaire pour les amener faire usage des technologies du numérique pour créer des innovations qui vont répondre aux besoins de leur écosystème. 
+                         </p>
+                        <a style="cursor: pointer" class="btn_2" data-target="#exampleModal" data-toggle="modal">lire plus</a>
                     </div>
                 </div>
             </div>
@@ -139,31 +137,45 @@
     <section class="service_part section_padding gray_bg">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-8 col-xl-4">
-                    <div class="single_service_text">
-                        <h2>We Provide Best Services</h2>
-                        <p>Male bring land dominion over can't yielding. His order moveth under of dry brought him is.
-                            Multiply which firmament deep make. Male bring land. Dominion over can't yielding. His
-                            moveth under of dry brought him is. Multiply which firmament deep make.</p>
-                        <a href="#" class="btn_2">Load More</a>
-                    </div>
-                </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="single_service_part">
-                        <span class="single_service_icon"><i class="flaticon-growth"></i></span>
-                        <h4>Business Opportunity</h4>
-                        <p>Show wherein form yielding whala readeat gathered wherein moved. Behold may be winged created
-                            that Won't theya are second god give </p>
-                        <a href="#" class="btn_3">Learn More <i class="ti-arrow-right"></i></a>
+                        <span class="single_service_icon"><i class="-growth"><img src="public/img/work.svg" alt=""></i></span>
+                        <h4>L’espace de  co-working</h4>
+                        <p>C’est un espace de travail partagé, ouvert à tous pour permettre aux jeunes entrepreneurs qui ne possèdent pas assez de moyens financiers pour louer un bureau, d’avoir accès à du mobilier de bureau, une connexion internet haut débit et du café à volonté dans un espace de travail convivial.</p>
+                        <a href="#" class="btn_3">Lire plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
                     <div class="single_service_part single_service_part_2">
-                        <span class="single_service_icon style_icon"><i class="flaticon-wallet"></i></span>
-                        <h4>Commercial Approach</h4>
-                        <p>Show wherein form yielding whala readeat gathered wherein moved. Behold may be winged created
-                            that Won't theya are second god give </p>
-                        <a href="#" class="btn_3 service_btn">Learn More <i class="ti-arrow-right"></i></a>
+                        <span class="single_service_icon style_icon"><i class="flaticon"><img src="public/img/electric.svg"></i></span>
+                        <h4>Le fablab</h4>
+                        <p>C’est un espace dédié pour la réalisation des projets informatiques ayant des composantes électroniques.
+                            Il est subdivisé en 3 pôles qui sont :
+                            le pôle modélisation et impression 3D
+                            le pôle conception, impression de circuit imprimé et soudure électronique
+                            le pôle domotique et robotique
+                            Il est ouverts à tous les jeunes qui souhaites travailler sur des projets électronique, il leur donne accès au matériel nécessaire pour concevoir et tester leur prototypes. </p>
+                        <a href="#" class="btn_3 service_btn">Lire plus <i class="ti-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-4">
+                    <div class="single_service_part">
+                        <span class="single_service_icon"><i class="-growth"><img src="public/img/student.svg" alt=""></i></span>
+                        <h4>Le Centre de formation en spécialité informatique</h4>
+                        <p>Cet espace est un cadre équipé en outil informatique pour dispenser des modules formations certifiantes, d’une durée de 2 mois chacune sur :
+Le marketing digital et le community management,
+Le design graphique flat et animé,
+Le développement mobile
+Le développement Web
+La gestion des projet (avec le modèle ITIL Fondation in IT service management)
+
+Ces formations sont ouvertes au étudiants, jeunes entrepreneurs et salariers pour se spécialiser dans les domaines cités.
+Nos modules sont dispensé comme suit :
+1er mois : formations pratique dans le centre
+2ème imersion dans nos start-ups et entreprises partenaire pour appliqué les notions acquises à travers des projets personnels
+
+Coût du module : 20.000f cfa </p>
+                        <a href="#" class="btn_3">Lire plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -502,6 +514,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wecreate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-justify">
+            Crée en 2019, Wecreate est le 1ère le tech hub (centre technologique) au Niger, qui met à la disposition des jeunes tout le savoir-faire nécessaire pour les amener faire usage des technologies du numérique pour créer des innovations qui vont répondre aux besoins de leur écosystème. <br>
+            C’est une communauté ouverte et composée par des mentor locaux et internationaux, expérimenté qui fournissent une assistance technique et commerciale aux membres nécessiteux. <br>
+            Nous organisons également des événements, des ateliers, des sessions de formation, des hackathons et des sessions de réseautage pour promouvoir la collaboration / les partenariats, les investissements et le financement. <br>
+            La mission principale de Wecreate est de promouvoir, faciliter et soutenir l’usage des technologies du numérique pour contribuer au développement à travers des solutions innovantes. <br>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- footer part end-->
 
     <!-- jquery plugins here-->
