@@ -85,7 +85,7 @@
                             <h1>La transformation digitale <br> pour le bien de la <br> communauté.</h1>
                             <p>Wecreate est un espace dédié pour former et accompagner les jeunes afin de les amener à saisir les opportunités qu’offre les technologies du numérique.</p>
                             <a href="#about" class="btn_1">A propos de Wecreate</a>
-                            <a href="Lien : https://youtu.be/eJCbtU_kTGc" class="popup-youtube video_popup">
+                            <a href="https://www.youtube.com/watch?v=eJCbtU_kTGc" class="popup-youtube video_popup">
                                 <span><img src="img/icon/play.svg" alt=""></span> Intro Video</a>
                         </div>
                     </div>
