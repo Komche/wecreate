@@ -189,8 +189,8 @@ Coût du module : 20.000f cfa </p>
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-                        <h2>Customer Are Saying</h2>
-                        <p>Winged hath had face creepeth abundantly so shall </p>
+                        <h2>Partenaire</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien urna, </p>
                     </div>
                 </div>
             </div>
@@ -199,16 +199,16 @@ Coût du module : 20.000f cfa </p>
                     <!-- THUMBNAILS -->
                     <div class="slider-nav-thumbnails">
                         <div class="slider-thumbnails">
-                            <img src="img/client/client_1.png" alt="slideimg" class="image">
+                            <img src="public/img/logo_ansi.png" alt="slideimg" class="image">
                         </div>
                         <div class="slider-thumbnails">
-                            <img src="img/client/client_2.png" alt="slideimg" class="image">
+                            <img src="public/img/cipmen_trans.png" alt="slideimg" class="image">
                         </div>
                         <div class="slider-thumbnails">
-                            <img src="img/client/client_1.png" alt="slideimg" class="image">
+                            <img src="public/img/etrilabs.png" alt="slideimg" class="image">
                         </div>
                         <div class="slider-thumbnails">
-                            <img src="img/client/client_1.png" alt="slideimg" class="image">
+                            <img src="public/img/google.jpg" alt="slideimg" class="image">
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ Coût du module : 20.000f cfa </p>
                     <div class="slider">
                         <div data-index="1">
                             <div class="client_review_text text-center">
-                                <img src="img/icon/quate.svg" class="quate_icon" alt="quate">
+                                <img src="public/vendor/img/icon/quate.svg" class="quate_icon" alt="quate">
                                 <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
                                     have light night beginning rule darkness seed darkness which land saying moveth.
                                     Fifth shall wont signs, can seasons green days gathered great</p>
@@ -227,7 +227,7 @@ Coût du module : 20.000f cfa </p>
                         </div>
                         <div data-index="2">
                             <div class="client_review_text text-center">
-                                <img src="img/icon/quate.svg" class="quate_icon" alt="quate">
+                                <img src="public/vendor/img/icon/quate.svg" class="quate_icon" alt="quate">
                                 <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
                                     have light night beginning rule darkness seed darkness which land saying moveth.
                                     Fifth shall wont signs, can seasons green days gathered great</p>
@@ -237,7 +237,7 @@ Coût du module : 20.000f cfa </p>
                         </div>
                         <div data-index="3">
                             <div class="client_review_text text-center">
-                                <img src="img/icon/quate.svg" class="quate_icon" alt="quate">
+                                <img src="public/vendor/img/icon/quate.svg" class="quate_icon" alt="quate">
                                 <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
                                     have light night beginning rule darkness seed darkness which land saying moveth.
                                     Fifth shall wont signs, can seasons green days gathered great</p>
@@ -247,7 +247,7 @@ Coût du module : 20.000f cfa </p>
                         </div>
                         <div data-index="4">
                             <div class="client_review_text text-center">
-                                <img src="img/icon/quate.svg" class="quate_icon" alt="quate">
+                                <img src="public/vendor/img/icon/quate.svg" class="quate_icon" alt="quate">
                                 <p>Own midst. Behold sea created male he together of That Said fourth deep abundantly
                                     have light night beginning rule darkness seed darkness which land saying moveth.
                                     Fifth shall wont signs, can seasons green days gathered great</p>
@@ -258,9 +258,9 @@ Coût du module : 20.000f cfa </p>
                     </div>
                 </div>
             </div>
-            <div class="hero-app-7 custom-animation4"><img src="img/animate_icon/icon_4.png" alt=""></div>
-            <div class="hero-app-3 custom-animation2"><img src="img/animate_icon/icon_8.png" alt=""></div>
-            <div class="hero-app-8 custom-animation"><img src="img/animate_icon/icon_3.png" alt=""></div>
+            <div class="hero-app-7 custom-animation4"><img src="public/vendor/img/animate_icon/icon_4.png" alt=""></div>
+            <div class="hero-app-3 custom-animation2"><img src="public/vendor/img/animate_icon/icon_8.png" alt=""></div>
+            <div class="hero-app-8 custom-animation"><img src="public/vendor/img/animate_icon/icon_3.png" alt=""></div>
         </div>
     </section>
     <!--::blog_part end::-->
@@ -273,14 +273,14 @@ Coût du module : 20.000f cfa </p>
                     <div class="card-columns">
                         <div class="card">
                             <blockquote class="blockquote mb-0">
-                                <h2>Explore Our Best
-                                    Practice Area</h2>
-                                <p>Male bring land. Dominion over can yielding his moveth under him is.
-                                    Multiply which firmament</p>
+                                <h2>Galerie
+                                    Photo</h2>
+                                <p>Notre espace convivial 
+                                de travail</p>
                             </blockquote>
                         </div>
                         <div class="card">
-                            <img src="img/gallery/gallery_item.png" class="card-img-top" alt="...">
+                            <img src="public/vendor/img/gallery/gallery_item.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="project_details.html">
                                     <h5 class="card-title">Startup Project</h5>
@@ -289,7 +289,7 @@ Coût du module : 20.000f cfa </p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="img/gallery/gallery_item_1.png" class="card-img-top" alt="...">
+                            <img src="public/img/CAPT6.PNG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="project_details.html">
                                     <h5 class="card-title">Startup Project</h5>
@@ -298,7 +298,7 @@ Coût du module : 20.000f cfa </p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="img/gallery/gallery_item_2.png" class="card-img-top" alt="...">
+                            <img src="public/vendor/img/gallery/gallery_item_2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="project_details.html">
                                     <h5 class="card-title">Startup Project</h5>
@@ -307,7 +307,7 @@ Coût du module : 20.000f cfa </p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="img/gallery/gallery_item_3.png" class="card-img-top" alt="...">
+                            <img src="public/img/Capture1.PNG" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="project_details.html">
                                     <h5 class="card-title">Startup Project</h5>
@@ -333,14 +333,12 @@ Coût du module : 20.000f cfa </p>
                 </div>
                 <div class="col-md-6 offset-xl-1 col-xl-6">
                     <div class="about_text">
-                        <h2>We Providing high quality
-                            	adviser service</h2>
-                        <h4>First Abundantly night you are sea great fifth year</h4>
-                        <p>Lights fly above bearing brought abundantly whose. Without one may i seed void wels great
-                            face god were deep be first. Unto for third be in moveth. Bring land bearing un abundantly
-                            firmament appear whales them years. Lights fly above bearing brought bold abundantly whose
-                            without one may i seed. </p>
-                        <a href="#" class="btn_2">read more</a>
+                        <h2>Projets
+                            	</h2>
+                        <h4>Le tech hub Wecreate travaille et propose des projets communautaires à fort impact social pour contribuer au développement du Niger à travers la formation des jeunes .</h4>
+                        <p>Ainsi  Wecreate travail sur 4 projets sociaux qui seront lancé en décembre 2019 pour le début de ses activités sociales.
+                            Ces 4 projets réunis vont former 3500 personne dans les huits régions du Niger. Se sont : </p>
+                            <a style="cursor: pointer" class="btn_2" data-target="#projet" data-toggle="modal">lire plus</a>
                     </div>
                 </div>
             </div>
@@ -353,7 +351,7 @@ Coût du module : 20.000f cfa </p>
 
 
     <!--::blog_part start::-->
-    <section class="blog_part section_padding">
+    <!--<section class="blog_part section_padding">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
@@ -434,7 +432,7 @@ Coût du module : 20.000f cfa </p>
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--::blog_part end::-->
 
     <!-- footer part start-->
@@ -503,7 +501,7 @@ Coût du module : 20.000f cfa </p>
         <div class="container">
             <div class="row align-items-center">
                 <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Wecreate <!-- <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
                     <a href="#"><i class="ti-facebook"></i></a>
@@ -530,6 +528,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             C’est une communauté ouverte et composée par des mentor locaux et internationaux, expérimenté qui fournissent une assistance technique et commerciale aux membres nécessiteux. <br>
             Nous organisons également des événements, des ateliers, des sessions de formation, des hackathons et des sessions de réseautage pour promouvoir la collaboration / les partenariats, les investissements et le financement. <br>
             La mission principale de Wecreate est de promouvoir, faciliter et soutenir l’usage des technologies du numérique pour contribuer au développement à travers des solutions innovantes. <br>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projet" tabindex="-1" role="dialog" aria-labelledby="projetLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="projetLabel">Wecreate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-justify">
+        Projets
+Le tech hub Wecreate travaille et propose des projets communautaires à fort impact social pour contribuer au développement du Niger à travers la formation des jeunes . <br>
+Ainsi  Wecreate travail sur 4 projets sociaux qui seront lancé en décembre 2019 pour le début de ses activités sociales. <br>
+Ces 4 projets réunis vont former 3500 personne dans les huits régions du Niger. Se sont : <br>
+Le labo des génies : ce projets va former 1000 enfants  âgés de 07 à 12 ans issus des écoles publiques et des orphelinats de Niamey en développement d’application mobile pour enfant, dessin informatique et construction d’une unité centrale selon le modèle Jery.
+Code for Her : il va former 1000 jeunes filles issues des lycées dans les 8 huits régions du niger en coding (développement d’application web)
+E-entreprenariat : ce projet va former 500 jeunes femmes entrepreneures à Niamey, sur le marketing digitale et dans l’utilisation des outils numériques pour la gestion d’une start-up.
+IOT for us: il va former 1000 jeunes lycéens de la ville de niamey en conception robotique et domotique.
         </p>
       </div>
       <div class="modal-footer">
