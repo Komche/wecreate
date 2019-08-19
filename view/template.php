@@ -48,31 +48,23 @@
                                     <a class="nav-link" href="index.html">Accueil</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Services
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="blog.html">L’espace de  co-working</a>
-                                        <a class="dropdown-item" href="single-blog.html">Le Fablab </a>
-                                        <a class="dropdown-item" href="single-blog.html">Centre de formation en spécialité informatique</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Page
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="project.html">Project</a>
-                                        <a class="dropdown-item" href="project_details.html">Project Details</a>
-                                        <a class="dropdown-item" href="service.html">Services</a>
-                                        <a class="dropdown-item" href="elements.html">Elements</a>
+                                        <a class="dropdown-item" href="#services">L’espace de  co-working</a>
+                                        <a class="dropdown-item" href="#services">Le Fablab </a>
+                                        <a class="dropdown-item" href="#services">Centre de formation en spécialité informatique</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">Carrière</a>
+                                    <a class="nav-link" href="#projets">Projets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Carrière</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -135,7 +127,7 @@
 
     <!-- service_part start-->
     <section class="service_part section_padding gray_bg">
-        <div class="container">
+        <div id="services" class="container">
             <div class="row">
                 <div class="col-sm-6 col-xl-4">
                     <div class="single_service_part">
@@ -324,7 +316,7 @@ Coût du module : 20.000f cfa </p>
 
     <!-- our_service_part part start-->
     <section class="about_part our_service_part padding_top">
-        <div class="container">
+        <div id="projets" class="container">
             <div class="row align-items-center justify-content-end">
                 <div class="col-md-6 col-xl-5">
                     <div class="about_img">
@@ -449,21 +441,21 @@ Coût du module : 20.000f cfa </p>
                     </ul>
                 </div>
                 <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
-                    <h4>Quick Links</h4>
+                    <h4>Liens</h4>
                     <ul>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Brand Assets</a></li>
-                        <li><a href="#">Investor Relations</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Projets</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                        <li><a href="#">Réalisations</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Features</h4>
                     <ul>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Brand Assets</a></li>
-                        <li><a href="#">Investor Relations</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Projets</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Partenaires</a></li>
+                        <li><a href="#">Réalisations</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
@@ -477,15 +469,15 @@ Coût du module : 20.000f cfa </p>
                 </div>
                 <div class="col-xl-4 col-sm-8 col-md-8 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Newsletter</h4>
-                    <p>You can trust us. we only send promo offers,</p>
+                    <p>Pour être informer de nos activité veuillez entrer votre adresse mail,</p>
                     <div class="form-wrap" id="mc_embed_signup">
                         <form target="_blank"
                             action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                             method="get" class="form-inline">
-                            <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                            <input class="form-control" name="EMAIL" placeholder="Votre adresse mail"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Votre adresse mail '"
                                 required="" type="email">
-                            <button class="click-btn btn btn-default text-uppercase btn_2">subscribe</button>
+                            <button class="click-btn btn btn-default text-uppercase btn_2">Valider</button>
                             <div style="position: absolute; left: -5000px;">
                                 <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
                             </div>
