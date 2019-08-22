@@ -249,6 +249,7 @@ Coût du module : 20.000f cfa </p>
                         <h4>Le tech hub Wecreate travaille et propose des projets innovants pour répondre aux besoins de la société, et des projets communautaires à fort impact social pour contribuer au développement du Niger à travers la formation des jeunes.</h4>
                         <p>Ainsi le fablab de Wecreate travail sur 3 projets innovant qui seront finalisé en décembre 2019 et présentés en janvier 2020.
                          <br> Il s’agit de :
+                        </p>
                          <ul class="unordered-list">
                             <li>
                             <b>E-bani :</b> appareil détecteur de palu avec à l’aide de l’infrarouge
@@ -260,8 +261,12 @@ Coût du module : 20.000f cfa </p>
                             <b>Couveuse intelligente :</b> couveuse d’oeufs de volaille solaire, autonome et contrôlable à distance avec un téléphone
                             </li>
                         </ul>
+                        <br>
+                        <p>
+                        Egalement Wecreate travail sur 4 projets sociaux qui seront lancé en 2019 pour le début de ses activités sociales.
+                        Ces 4 projets réunis vont former 3500 personne dans les huit régions du Niger. Se sont :
                         </p>
-                            <a style="cursor: pointer" class="btn_2" data-target="#projet" data-toggle="modal">lire plus</a>
+                            <a style="cursor: pointer" class="btn_2" href="index.php?action=project">lire plus</a>
                     </div>
                 </div>
             </div>

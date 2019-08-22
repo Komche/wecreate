@@ -29,12 +29,12 @@
 
 <body>
     <!--::header part start::-->
-    <header class="main_menu home_menu">
+    <header class="main_menu <?php echo (empty($_GET['action'])) ? 'home_menu' : ''; ?>">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-xl-8">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="public/img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="public/img/logo.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Accueil</a>
+                                    <a class="nav-link" href="index.php">Accueil</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,8 +57,16 @@
                                         <a class="dropdown-item" href="#services">Centre de formation en spécialité informatique</a>
                                     </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#projets">Projets</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="index.php?action=project" id="navbarDropdownProject" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Projets
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+                                        <a class="dropdown-item" href="index.php?action=project#proj1">Le labo des génies</a>
+                                        <a class="dropdown-item" href="index.php?action=project#proj2">Code for Her </a>
+                                        <a class="dropdown-item" href="index.php?action=project#proj3">E-entreprenariat</a>
+                                        <a class="dropdown-item" href="index.php?action=project#proj4">IOT for us</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Carrière</a>
@@ -145,10 +153,10 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Wecreate <!-- <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                    <a href="https://www.facebook.com/Wecreate-112747093421434/?referrer=whatsapp"><i class="ti-facebook"></i></a>
-                    <a href="https://twitter.com/Wecreate17"> <i class="ti-twitter"></i> </a>
-                    <a href="#"><i class="ti-instagram"></i></a>
-                    <a href="#"><i class="ti-skype"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/Wecreate-112747093421434/?referrer=whatsapp"><i class="ti-facebook"></i></a>
+                    <a target="_blank" href="https://twitter.com/Wecreate17"> <i class="ti-twitter"></i> </a>
+                    <a target="_blank" href="#"><i class="ti-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="ti-skype"></i></a>
                 </div>
             </div>
         </div>
